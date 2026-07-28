@@ -72,6 +72,37 @@
             <li><mark>git log</mark> - Ver histórico de commits</li>
         </ul>
     </pre>
+    <h2>Outras opções úteis de commit</h2>
+    <ul>
+        <li>
+            Crie um commit vazio:
+            <pre><mark>git commit --allow-empty -m "Start project"</mark></pre>
+        </li>
+        <li>
+            Adicione rapidamente as alterações preparadas ao último commit, mantendo a mensagem:
+        <pre><mark>git commit --amend --no-edit</mark></pre>
+        </li>
+        <li>
+            Usar a mensagem de commit anterior (sem editor):
+        <pre><mark>git commit --no-edit</mark></pre>
+        </li>
+    </ul>
+    <h3>Solução de problemas e erros comuns de commit</h3>
+    <ul>
+        <li>
+            Acidentalmente, adicionou os arquivos errados?
+            <pre><mark>git reset --soft HEAD~1</mark></pre> <!--omando para desfazer a última alteração e manter suas modificações em estado de preparação.-->
+        </li>
+        <li>
+            Erro de digitação na sua mensagem de commit?
+            <pre><mark>git commit --amend -m "Corrected message"</mark></pre>
+        </li>
+        <li>
+            Ver histórico de commits
+            <pre><mark>git log</mark></pre>
+            <!--Para visualizar o histórico de commits de um repositório, você pode usar o git logcomando:-->
+        </li>
+    </ul>
     
     <script src="2-primeiros_passo.js"></script>
 </body>
