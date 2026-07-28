@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1-Tutorial de Git.css">
+    <title>Tutorial de Git</title>
+</head>
+<body>
+    <h1>Tutorial de Git</h1>
+    <p id="git"></p>
+    <p>
+        <pre>
+            git --version
+            git version 2.43.0
+        </pre>
+    </p>
+    <h2>Instalação do Git</h2>
+    <h3>Exemplo: Definir o VS Code como editor padrão</h3>
+    <p>
+        <pre>
+            git config --global core.editor "code --wait"
+        </pre>
+    </p>
+
+    <h1>Configuração do Git</h1>
+    <h2>Configurar Git</h2>
+    <p>Agora, informe ao Git quem você é.</p>
+    <h3>Nome de usuário</h3>
+    <p>
+        <pre>
+            git config --global user.name "Nunes Alves"
+        </pre>
+    </p>
+    <h3>Endereço de email</h3>
+    <p>
+        <pre>
+            git config --global user.email "exemplo@gmail.com"
+        </pre>
+    </p> <!--O Git usa seu nome e e-mail para etiquetar seus commits.-->
+    <h3>Alterar ou remover valores de configuração</h3>
+    <p>
+        <pre>
+            git config --global --unset code.editot
+        </pre>
+    </p>
+    <h3>Nome da filial padrão</h3>
+    <p>
+        Defina o nome padrão da ramificação para novos repositórios (por exemplo, mainem vez de master):
+        <pre>
+        git config --global init.defaultBranch main
+        </pre>
+    </p>
+    <ul>
+        <li>Sistema (todos os usuários):<mark>git config --system</mark></li>
+        <li>Global (usuário atual):<mark>git config --global</mark></li>
+        <li>Local (repositório atual):<mark>git config --local</mark></li>
+    </ul>
+    <p>A ordem de precedência é:</p>
+    <ul>
+        <li>Local (repositório atual)</li>
+        <li>Global (usuário atual)</li>
+        <li>Sistema (todos os usuários)</li>
+    </ul>
+    <h3>Exemplo: Defina uma configuração local</h3>
+    <p>
+        <pre>
+        git config user.name "Project Name"
+        </pre>
+    </p>
+    <script src="1-Tutorial de Git.js"></script>
+</body>
+</html>

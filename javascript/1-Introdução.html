@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1-Introdução.css">
+    <title>Introdução ao JavaScript</title>
+</head>
+<body>
+    <h1>Introdução ao JavaScript</h1>
+    <p>O JavaScript pode alterar os valores dos atributos HTML.</p>
+    <p>Nesse caso, o JavaScript altera o valor do atributo src (origem) de uma imagem.</p>
+
+    <button onclick="document.getElementById('myImg').src='/img/acesa.png'">Acender a luz</button>
+
+    <img id="myImg" src="/img/apagada.png" alt="luz">
+
+    <button onclick="document.getElementById('myImg').src='/img/apagada.png' ">Apagar a luz</button>
+    <br>
+    <br>
+    <button id="btn">Clique aqui!</button>
+    <script src="1-Introdução.js"></script>
+</body>
+</html>

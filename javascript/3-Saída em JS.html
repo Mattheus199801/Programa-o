@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="3-3-Saída em JS.css">
+    <title>Saída em JavaScript</title>
+</head>
+<body>
+    <h1>Saída em JavaScript</h1>
+    <h2>Possibilidades de exibição em JavaScript</h2>
+    <ul>
+        <li>Escrevendo em um elemento HTML, usando<mark>innerHTML</mark> ou <mark>innerText</mark> .</li>
+        <li>Escrevendo na saída HTML usando<mark>document.write()</mark> .</li>
+        <li>Escrevendo em uma caixa de alerta, usando <mark>window.alert()</mark> .</li>
+        <li>Escrevendo no console do navegador, usando<mark>console.log()</mark> .</li>
+    </ul> <br>
+    <br>
+    <p id="demo0" class="demo0"Titulo 2></p> <br>
+    <br>
+    <p id="demo1" class="demo1">Titulo 2.1</p> <br>
+    <br>
+    <p>Nunca chame document.write depois que o documento terminar de carregar. Isso sobrescreverá todo o documento.</p>
+    <script>
+        document.write(5 + 6); /* Usar `document.write()` após o carregamento de um documento HTML apagará todo o HTML existente .*/
+    </script> <br>
+    <br>
+    <button type="button" onclick="document.write(5 + 7)">Clique aqui!</button> <!--O método document.write() deve ser usado apenas para testes.--> 
+    
+    <script>
+        window.alert(5 +8);
+    </script>
+    <button onclick="window.print()">Imprima esta página</button>
+    <script src="3-Saída em JS.js"></script>
+</body>
+</html>

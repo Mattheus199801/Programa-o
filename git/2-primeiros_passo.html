@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2-primeiros_passo.css">
+    <title>Introdução ao Git</title>
+</head>
+<body>
+    <h1>Introdução ao Git</h1>
+    <h2>Etapas essenciais para começar</h2>
+    <ul>
+        <li>Crie uma pasta de projeto</li>
+        <li>Navegue até a pasta</li>
+        <li>Inicializar um repositório Git</li>
+    </ul>
+    <p>
+        <pre>
+        mkdir meuprojeto <!--mkdirCria um novo diretório.-->
+        cd meuprojeto <!--cdaltera nosso diretório de trabalho.-->
+        </pre>
+    </p>
+    <h2>Inicializar Git</h2>
+    <p>
+        <pre>
+            git init 
+            Initialized empty Git repository in /Users/user/myproject/.git/
+            <!--Um repositório Git é uma pasta que o Git rastreia em busca de alterações. O repositório armazena todo o histórico e as versões do seu projeto.-->
+            ls -a <!--Exibir pasta .git oculta (Linux)-->
+        </pre>
+    </p>
+    <p id="demo0"></p>
+
+    <h2>Git Novos Arquivos</h2>
+    <p>Um novo arquivo é um arquivo que você criou ou copiou para a pasta do seu projeto, mas para o qual você ainda não instruiu o Git a monitorá-lo.</p>
+    <p>
+        <pre>
+            git status <!--Verifique quais arquivos estão sendo rastreados-->
+        </pre>
+    </p>
+    <h2>O que é o ambiente de teste (staging environment)?</h2>
+    <p>
+        O ambiente de preparação (ou área de preparação ) é como uma sala de espera para as suas alterações. <br>
+<br>
+        Você o utiliza para informar ao Git         exatamente quais arquivos deseja incluir no         seu próximo commit. <br>
+<br>
+        Isso lhe dá controle sobre o que entra no         histórico do seu projeto.
+    </p>
+    <p>
+        <pre>
+            <ul>
+                <li><mark>git add index.html</mark> - Preparar um arquivo</li>
+                <li><mark>git add --all</mark> ou - Implemente todas as alterações - <mark>git add -A
+                </mark></li>
+                <li><mark>git status</mark> - Veja o que está sendo encenado</li>
+                <li><mark>restore --staged index.html</mark> - Desfazer a preparação de um arquivo</li>
+            </ul>
+        </pre>
+    </p>
+    
+    <script src="2-primeiros_passo.js"></script>
+</body>
+</html>

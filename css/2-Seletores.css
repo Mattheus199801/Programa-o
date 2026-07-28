@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.vermelho{
+    text-align: center;
+    color: #ff0000;
+    font-size: 1.5em;
+}
+
+.azul{
+    color: #0000ff;
+    text-align: center;
+}
+#idmark{
+    color: #ff0000;
+    background-color: #000000;
+}
+.outro{
+    color: #ffa805;
+    text-align: center;
+}
