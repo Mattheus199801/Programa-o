@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="4-Stash.css">
+    <title>Git Stash</title>
+</head>
+<body>
+    <h1>Git Stash</h1>
+    <p id="demo0"></p>
+    <ul>
+        <li> - Guarde seu troco.<pre><mark>git stash</mark></pre></li>
+        <li> - Esconderijo com uma mensagem<pre><mark>git stash push -m "teste</mark></pre></li>
+        <li> - Liste todos os esconderijos<pre><mark>git stash list</mark></pre></li>
+        <li> - Criar uma ramificação a partir de um<pre><mark>git stash branch nunes</mark></pre></li>
+    </ul>
+    <p>Às vezes, você precisa alternar rapidamente entre tarefas ou corrigir um bug, mas ainda não está pronto para concluir seu trabalho.</p>
+    <p><pre><mark>git stash</mark></pre> Permite salvar as alterações não confirmadas e retornar a um diretório de trabalho limpo.</p>
+    <h2>Esconder com uma mensagem</h2>
+    <pre><mark>git stash push -m "teste em projeto"</mark></pre>
+    <h2>Listar todos os esconderijos</h2>
+    <pre><mark>git stash list</mark></pre>
+    <h2>Mostrar detalhes do estoque</h2>
+    <pre><mark>git stash show</mark></pre>
+    <h2>Aplicar o Stash mais recente </h2>
+    <pre><mark>git stash apply</mark></pre>
+    <h2>Aplicar um estoque específico</h2>
+    <pre><mark>git stash apply stash@{n}</mark></pre>
+    <h2>Estoure o estoque</h2>
+    <pre><mark>git stash pop</mark></pre>
+    <h2>Deixe um estoque</h2>
+    <pre><mark>git stash drop</mark></pre>
+    <h2>Limpar todos os esconderijos</h2>
+    <pre><mark>git stash clear</mark></pre>
+    <h2>Ramo de um estoque </h2>
+    <pre><mark>git stash branch</mark></pre>
+    
+    <script src="4-Stash.js"></script>
+</body>
+</html>
