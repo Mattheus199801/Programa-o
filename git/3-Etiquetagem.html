@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="3-Etiquetagem.css">
+    <title>Etiquetagem Git</title>
+</head>
+<body>
+    <h1>Etiquetagem Git</h1>
+    <p id="demo0"></p>
+    <h2>Atalhos de teclado para etiquetagem</h2>
+    <ul>
+        <li> - Crie uma etiqueta leve<pre><mark>git tag v1.0<</mark></pre></li>
+        <li> - Criar uma etiqueta anotada<pre><mark>git tag -a v1.0 -m "Teste 01"</mark></pre></li>
+        <li> - Marque um commit específico<pre><mark>git tag v1.0 commit -hash</mark></pre></li>
+        <li> - Lista de etiquetas<pre><mark>git tag</mark></pre></li>
+        <li> - Mostrar detalhes da etiqueta<pre><mark>git show v1.0</mark></pre></li>
+    </ul>
+    <p>Uma tag no Git é como um rótulo ou marcador para um commit específico.</p>
+    <h2>Crie uma etiqueta leve</h2>
+    <pre><mark>git tag v1.0</mark></pre>
+    <h2>Criar uma Tag Anotada ( <mark>-a -m</mark>)</h2>
+    <pre><mark>git tag -a v1.0 -m "Versão 1.0"</mark></pre>
+    <h2>Marque um commit específico</h2>
+    <pre><mark>git tag v1.0 1a2b3c4d</mark></pre>
+    <h2>Mostrar detalhes da etiqueta ( <mark>git show</mark>)</h2>
+    <pre><mark>git show</mark></pre>
+    <h2>Enviar etiquetas para o controle remoto</h2>
+    <pre><mark>git push origin v1.0</mark></pre> <!--Enviar commits com `git push` nãogit push envia suas tags!-->
+    <h2>Enviar todas as tags</h2>
+    <pre><mark>git push --tags</mark></pre>
+    <h2>Excluir etiquetas</h2>
+    <pre><mark>git tag -d v1.0</mark></pre>
+    <h2>Atualizar ou substituir uma etiqueta (envio forçado)</h2>
+    <pre><mark>git tag -f v1.0 1a2b3c4d
+        git push --force origin v1.o
+    </mark></pre> <!--Se você precisar mover uma tag para um commit diferente e atualizar o repositório remoto, use --force:-->
+    
+    <script src="3-Etiquetagem.js"></script>
+</body>
+</html>
