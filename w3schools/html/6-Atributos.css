@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+text-align: center;
+color: #ffffff;
+background-image: url(/w3schools/img/img-rept.png);
+background-repeat: no-repeat;
+background-position: right top;
+background-attachment: fixed;
+margin-right: 50px;
+}
+
+ul{
+    display: inline-block;
+}
+
+mark{
+    color: #ff0000;
+    background-color: #000000;
+}
+a{
+    color: #ff0000;
+}
