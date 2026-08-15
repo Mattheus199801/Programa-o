@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body{
+    text-align: justify;
+    color: #ffffff;
+    background-image: url(/w3schools/img/img-rept.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-right: 50px;
+}
