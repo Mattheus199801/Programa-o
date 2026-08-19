@@ -14,3 +14,7 @@ mark{
     color: #ff0000;
     background-color: #000000;
 }
+
+hr{
+    border: 1px solid #03ff42;
+}
