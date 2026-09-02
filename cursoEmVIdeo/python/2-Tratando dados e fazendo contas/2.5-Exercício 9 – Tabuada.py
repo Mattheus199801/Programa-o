@@ -1,0 +1,26 @@
+tabuada = int(input('Digite um número para ver sua tabuada: '));
+print('-' * 18);
+print('A TABUADA DO {}'.format(tabuada));
+print('-' * 18);
+t1 = tabuada * 1;
+t2 = tabuada * 2;
+t3 = tabuada * 3;
+t4 = tabuada * 4;
+t5 = tabuada * 5;
+t6 = tabuada * 6;
+t7 = tabuada * 7;
+t8 = tabuada * 8;
+t9 = tabuada * 9;
+t10 = tabuada * 10;
+
+print('{} X {:2} = {}'.format(tabuada, 1, tabuada * 1));
+print('{} X {:2} = {}'.format(tabuada, 2, tabuada * 2));
+print('{} X {:2} = {}'.format(tabuada, 3, tabuada * 3));
+print('{} X {:2} = {}'.format(tabuada, 4, tabuada * 4));
+print('{} X {:2} = {}'.format(tabuada, 5, tabuada * 5));
+print('{} X {:2} = {}'.format(tabuada, 6, tabuada * 6));
+print('{} X {:2} = {}'.format(tabuada, 7, tabuada * 7));
+print('{} X {:2} = {}'.format(tabuada, 8, tabuada * 8));
+print('{} X {:2} = {}'.format(tabuada, 9, tabuada * 9));
+print('{} X  {:2} = {}'.format(tabuada, 10, tabuada * 10));
+print('-' * 18);
