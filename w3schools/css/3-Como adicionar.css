@@ -1,20 +1,11 @@
 @charset "UTF-8";
 
 body{
-    text-align: center;
-}
-
-p{
-    color: #0000ff;
-
-}
-h1{
-    color: #e26e2b;
-}
-li{
-    color: #105003;
-}
-ol{
-    text-align: left;
-    display: inline-block;
+    text-align: justify;
+    background-image: url(/w3schools/img/ChatGPT\ .png);
+    background-attachment: fixed;
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+    
 }
