@@ -1,7 +1,21 @@
 @charset "UTF-8";
 
-.vermelho{
+body{
+    text-align: justify;
+    color: #020202;
+    background-image: url(/w3schools/img/ChatGPT\ .png);
+    background-position: right top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+img{
+    width: 500px;
+}
+
+p{
     color: #ff0000;
-    text-align: center;
-    font-size: 1.5em;
 }
