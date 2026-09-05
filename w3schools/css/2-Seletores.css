@@ -1,20 +1,22 @@
 @charset "UTF-8";
 
-.vermelho{
-    text-align: center;
-    color: #ff0000;
-    font-size: 1.5em;
+body{
+    text-align: left;
+    background-image: url(/w3schools/img/ChatGPT\ .png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-right: 50px;
 }
 
-.azul{
-    color: #0000ff;
-    text-align: center;
+p{
+    color: #346800;
 }
-#idmark{
+#para0{
+    text-align: right;
     color: #ff0000;
-    background-color: #000000;
 }
-.outro{
-    color: #ffa805;
+.para1{
     text-align: center;
+    color: #0000ff;
 }
