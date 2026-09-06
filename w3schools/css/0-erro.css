@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    text-align: justify;
+    color: #000000;
+    background-image: url(/w3schools/img/ChatGPT\ .png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-right: 50px;
+}
+
+
+p{ /* erro em css falta ponto e virgula*/
+    color: #ff0000;
+    background-color: yellow; 
+}
