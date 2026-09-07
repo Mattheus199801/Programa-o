@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    text-align: justify;
+    color: #000000;
+    background-image: url(/w3schools/img/ChatGPT\ .png);
+    background-position: left top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.cor{
+    background-color: #add8e66c ;
+}
+
+.img{
+    background-image: url(/w3schools/img/ChatGPT\ .png);
+
+}
+
+.repeat{
+    background-image: url(/w3schools/img/img-no-rep.png);
+    background-position: center;
+    background-repeat: repeat-x;
+    color: #ffffff;
+}
+
+.Anexo{
+    background-image: url(/w3schools/img/ChatGPT\ .png);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+.abrevi{
+    background: #ffffff url(/w3schools/img/ChatGPT\ .png) no-repeat left top;
+}
