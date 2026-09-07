@@ -1,1 +1,91 @@
+@charset "UTF-8";
 
+body{
+    text-align: justify;
+    color: #000000;
+    background-image: url(/w3schools/img/ChatGPT\ .png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-right: 50px;
+
+}
+
+.COLOR0{
+    color: white;
+    background-color: dodgerblue;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 12px;
+    width: fit-content;
+    margin: 12px ;
+}
+
+.COLOR1{
+    color: white;
+    background-color: tomato;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 12px;
+    width: fit-content;
+    margin: 12px;
+}
+
+.RGB0{
+    color: rgba(255, 255, 255, 0.973);
+    background-color: rgb(30, 144, 255);
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 12px;
+    width: fit-content;
+    margin: 12px;
+}
+.RGB1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 99, 71);
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 12px;
+    width: fit-content;
+    margin: 12px;
+}
+
+.HEX0{
+    color: #fffffff8;
+    background-color: #1e90ff;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 12px;
+    width: fit-content;
+    margin: 12px;
+}
+
+.HEX1{
+    color: #ffffff;
+    background-color: #ff6347;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 12px;
+    width: fit-content;
+    margin: 12px;
+}
+
+.HSL0{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(210, 100%, 56%);
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 12px;
+    width: fit-content;
+    margin: 12px;
+}
+
+.HSL1{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(9, 100%, 64%);
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 12px;
+    width: fit-content;
+    margin: 12px;
+}
