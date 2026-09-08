@@ -1,4 +1,5 @@
-const botao = document.getElementById("btn");
-botao.addEventListener("click", function(){
-    alert("Você Clicou no Botão")
-})
+/*
+function myF(){
+    document.getElementById('d0').innerHTML = 'Hello JavaScript!';
+}myF();
+*/

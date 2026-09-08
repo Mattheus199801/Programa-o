@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 body{
-    text-align: center;
-    color: #4a8f8f;
-    background-image: url(/img/img-rept.png);
+    text-align: justify;
+    color: #000000;
+    background-image: url(/w3schools/img/ChatGPT\ .png);
+    background-position: left top;
     background-repeat: no-repeat;
-    background-position: right top;
-    margin-right: 50px;
-    background-attachment: fixed; /*Essa background-attachmentpropriedade especifica se a imagem de fundo deve rolar ou ser fixa (não rolará com o restante da página)*/
+    background-attachment: fixed;
+    margin: 50px;
 }
