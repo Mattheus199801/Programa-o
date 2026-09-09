@@ -1,4 +1,3 @@
-
-function myFun (){
-document.getElementById('demo').innerHTML = "Meu primeiro JavaScript"
-}
+function myf(){
+    document.getElementById('d0').innerHTML = "Meu primeiro JavaScript"
+} myf();
