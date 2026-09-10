@@ -3,34 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="3-3-Saída em JS.css">
+    <link rel="stylesheet" href="3-Saída em JS.css">
+    <link rel="shortcut icon" href="/w3schools/img/favicon.ico" type="image/x-icon">
     <title>Saída em JavaScript</title>
 </head>
 <body>
     <h1>Saída em JavaScript</h1>
-    <h2>Possibilidades de exibição em JavaScript</h2>
-    <ul>
-        <li>Escrevendo em um elemento HTML, usando<mark>innerHTML</mark> ou <mark>innerText</mark> .</li>
-        <li>Escrevendo na saída HTML usando<mark>document.write()</mark> .</li>
-        <li>Escrevendo em uma caixa de alerta, usando <mark>window.alert()</mark> .</li>
-        <li>Escrevendo no console do navegador, usando<mark>console.log()</mark> .</li>
-    </ul> <br>
-    <br>
-    <p id="demo0" class="demo0"Titulo 2></p> <br>
-    <br>
-    <p id="demo1" class="demo1">Titulo 2.1</p> <br>
-    <br>
-    <p>Nunca chame document.write depois que o documento terminar de carregar. Isso sobrescreverá todo o documento.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, nesciunt nisi corrupti optio sit et? Ad mollitia ullam similique. Ipsam animi odit nostrum autem tempore ullam sit odio obcaecati fuga. <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque non cumque laboriosam ipsum. Adipisci, earum dolore iste quia error aliquid recusandae amet ducimus at, quidem optio officiis ab, fuga porro?</p>
+    <h2>Usando innerHTML</h2>
+    <p id="d0"></p>
+    <h2>Usando texto interno</h2>
+    <p id="d1"></p>
+    <h2>Usando document.write()</h2>
+    <p id="d2"></p>
     <script>
-        document.write(5 + 6); /* Usar `document.write()` após o carregamento de um documento HTML apagará todo o HTML existente .*/
-    </script> <br>
+        document.write(6 + 9);
+    </script> 
     <br>
-    <button type="button" onclick="document.write(5 + 7)">Clique aqui!</button> <!--O método document.write() deve ser usado apenas para testes.--> 
-    
+    <button type="button" onclick="document.write(6 + 6)">Clique aqui!</button>
+    <h2>Usando window.alert()</h2>
     <script>
-        window.alert(5 +8);
+        window.alert("Olá, Humano!")
     </script>
-    <button onclick="window.print()">Imprima esta página</button>
+    <h2>Usando console.log()</h2>
+    <script>
+        console.log("Olá, Humano novamente!")
+    </script>
+    <h2>Impressão em JavaScript</h2>
+    <button onclick="window.print()">Clique aqui para imprimir</button>
+    
     <script src="3-Saída em JS.js"></script>
 </body>
 </html>

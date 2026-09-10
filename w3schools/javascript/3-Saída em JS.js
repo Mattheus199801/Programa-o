@@ -1,5 +1,11 @@
+function myF(){
+    document.getElementById('d0').innerHTML = 'Olá, mundo!'
+}myF();
 
-document.getElementById('demo0').innerHTML='<h2>Hello World</h2>'; /*Alterar a propriedade innerHTML de um elemento HTML é a maneira mais comum de exibir dados em HTML.*/
+function mYF(){
+    document.getElementById('d1').innerText = 'Olá, JavaScript!'
+}mYF();
 
-document.getElementById('demo1').innerText='Parágrafo 2.1'; /* Use innerHTML quando quiser alterar um elemento HTML. Use innerText quando você quiser alterar apenas o texto simples.*/
-
+function mYf(){
+    document.getElementById('d2').innerHTML = (5 + 6)
+}mYf();
