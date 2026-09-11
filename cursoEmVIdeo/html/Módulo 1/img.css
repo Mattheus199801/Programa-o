@@ -13,3 +13,10 @@ body{
 img{
     width: 60px;
 }
+
+mark{
+    background-color: #000000;
+    color: #ff0000;
+    width: 80px;
+    height: 80px;
+}
