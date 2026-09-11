@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    text-align: justify;
+    color: #000000;
+    background-image: url(/w3schools/img/ChatGPT\ .png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+}
+
+.small{
+    font-size: 9px;
+}
+
+p{
+    font-size: 12px;
+}
