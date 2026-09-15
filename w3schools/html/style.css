@@ -17,3 +17,13 @@ body{
 p{
     font-size: 12px;
 }
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #0011ff;
+}
+
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+}
