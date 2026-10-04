@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    text-align: justify;
+    color: #ffffff;
+    background-image: url(/w3schools/img/img-rept.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-right: 10px;
+}
+.padding{
+    border:  1px dotted #4caf50;
+    padding: 40px 30px 20px 10Px;
+}
+.padding1{
+    border:  1px dotted #4caf50;
+    padding: 50px 60px 70px 80Px;
+    box-sizing: border-box;
+    background-color: #add8e6;
+    color: #000000;
+}
