@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    text-align: justify;
+    color: #fffefe;
+    background-image:url(/cursoEmVIdeo/img/img-no-rep.png) ;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-right: 10pz;
+}
+.margem{
+    border: 1px dotted #4caf50;
+    margin: 5px 40px 30px 20px ;
+}
