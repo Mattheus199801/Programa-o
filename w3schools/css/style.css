@@ -49,3 +49,50 @@ mark{
     margin: 0;
     background-color: #90db90;
 }
+.cont{
+    border: 2px solid black;
+    outline: #4caf50 solid 10px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.dotted{
+    outline-color: #008000;
+    padding: 5px;
+    outline-style: dotted;
+}
+.dashed{
+    outline-color: #008000;
+    padding: 5px;
+    outline-style: dashed;
+}
+.solid{
+    outline-color: #008000;
+    padding: 5px;
+    outline-style: solid;
+}
+.double{
+    outline-color: #008000;
+    padding: 5px;
+    outline-style: double;
+}
+.groove{
+    outline-color: #008000;
+    padding: 5px;
+    outline-style: groove;
+}
+.ridge{
+    outline-color: #008000;
+    padding: 5px;
+    outline-style: ridge;
+}
+.inset{
+    outline-color: #008000;
+    padding: 5px;
+    outline-style: inset;
+}
+.outset{
+    outline-color: #008000;
+    padding: 5px;  
+    outline-style: outset;   
+}
