@@ -96,3 +96,27 @@ mark{
     padding: 5px;  
     outline-style: outset;   
 }
+.thin{
+    padding: 5px;
+    outline-style: solid;
+    outline-color: #008000;
+    outline-width: thin;
+}
+.medium{
+    padding: 5px;
+    outline-style: solid;
+    outline-color: #008000;
+    outline-width: medium;
+}
+.thick{
+    padding: 5px;
+    outline-style: solid;
+    outline-color: #008000;
+    outline-width: thick;
+}
+.thickpx{
+    padding: 5px;
+    outline-style: solid;
+    outline-color: #008000;
+    outline-width: 8px;
+}
