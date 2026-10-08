@@ -120,3 +120,27 @@ mark{
     outline-color: #008000;
     outline-width: 8px;
 }
+.vermelho{
+    border: 1px  #000000;
+    outline-style: solid;
+    outline-color: #ff0000;
+    padding: 5px;
+}
+.azul{
+    border: 1px  #000000;
+    outline-style: dotted;
+    outline-color: #001aff;
+    padding: 5px;
+}
+.verde{
+    border: 1px  #000000;
+    outline-style: outset;
+    outline-color: #15ff00;
+    padding: 5px;
+}
+.invertido{
+    border: 1px  #000000;
+    outline-style: solid;
+    outline-color: invert;
+    padding: 5px;
+}
