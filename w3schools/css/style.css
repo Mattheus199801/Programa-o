@@ -144,3 +144,28 @@ mark{
     outline-color: invert;
     padding: 5px;
 }
+.dashed1{
+    padding: 5px;
+    outline: dashed;
+    border-radius: 8px;
+}
+.dotted1{
+    padding: 5px;
+    outline: dotted #ff0000;
+    border-radius: 5px;
+}
+.solid1{
+    padding: 5px;
+    outline: 7px solid #ffff00;
+    border-radius: 5px;
+}
+.thick1{
+    padding: 5px;
+    outline: thick ridge #ffc0cb;  
+    border-radius: 8px;  
+}
+.outlinerrr{
+    padding: 5px;
+    outline: thick ridge #008000;
+    border-radius: 8px;
+}
