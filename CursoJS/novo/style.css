@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body{
+    text-align: justify;
+    color:#ffffff ;
+    background-image: url(/w3schools/img/img-no-rep.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-right: 10px;
+}
