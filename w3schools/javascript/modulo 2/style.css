@@ -9,3 +9,8 @@ body{
     background-position: top;
     margin-right: 10px;
 }
+
+mark{
+    color: #ff0000;
+    background-color: #000000;
+}
