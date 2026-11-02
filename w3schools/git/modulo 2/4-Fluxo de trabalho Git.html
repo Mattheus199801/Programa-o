@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/w3schools/img/favicon.ico" type="image/x-icon">
+    <title>Fluxo de trabalho Git</title>
+</head>
+<body>
+    <h1>Fluxo de trabalho Git</h1>
+    <ul>
+        <li><mark>Diretório de trabalho</mark> - Onde você faz alterações</li>
+        <li><mark>git add</mark> - Alterações de preparação</li>
+        <li><mark>git commit</mark> - Salvar alterações no seu repositório</li>
+        <li><mark>git push</mark> - Compartilhe as alterações com outras pessoas</li>
+        <li><mark>git status</mark> - Verifique o que está acontecendo</li>
+        <li><mark>Desfazer/Alterar</mark> - Corrigir erros <pre> <code>( git restore, git reset, git commit --amend)</code></pre></li>
+        
+    </ul>
+    <h2>Desfazer e alterar alterações</h2>
+    <ul>
+        <li><mark>git restore &lt;file&gt;</mark> - Desfazer alterações no diretório de trabalho (antes de preparar o ambiente).</li>
+        <li><mark>git restore --staged &lt;file&gt;</mark> - Remover um arquivo da área de preparação (movê-lo para fora da área de preparação).</li>
+        <li><mark>git reset HEAD~</mark> - Desfazer a última alteração (mantém as alterações no diretório de trabalho).</li>
+        <li><mark>git commit --amend</mark> - Altere a mensagem do último commit ou adicione arquivos ao seu último commit.</li>
+        <pre><code>git restore --staged index.html</code></pre>
+    </ul>
+</body>
+</html>
